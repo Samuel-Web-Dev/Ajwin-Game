@@ -1,0 +1,41 @@
+
+.onboarding {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  text-align: center;
+  margin-top: 4em;
+}
+
+.onboarding__logo{
+  width: 90%;
+  margin: 1em auto;
+  height: 300px;
+}
+
+.onboarding__content {
+  margin: 0 auto;
+  width:85%;
+}
+
+.onboarding__content h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 .2em 0;
+}
+
+.onboarding__button {
+  width: 80%;
+  margin: 1em auto 0;
+  height: 40px;
+  background: rgb(43, 43, 243);
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

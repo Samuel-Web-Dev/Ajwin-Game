@@ -1,0 +1,25 @@
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.sign-in__logo{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sign-in p {
+  text-align: center;
+  font-weight: 900;
+}
+
+.sign-in .signup__button{
+  color: rgb(130, 56, 241);
+  font-weight: lighter;
+  text-decoration: none;
+}

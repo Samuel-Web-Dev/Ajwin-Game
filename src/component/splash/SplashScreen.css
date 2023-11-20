@@ -1,0 +1,30 @@
+
+.splash-screen {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.splash-screen img {
+  width: 80%;
+}
+
+.splash-screen div {
+  color: #fff;
+  margin-top: 1em;
+  font-weight: 900;
+  font-size: 1.5rem;
+  transform: translateX(150%);
+  animation: animate 1s ease-in-out forwards;
+}
+
+@keyframes  animate {
+   100% {
+    transform: translateX(0%);
+   }
+}
+
